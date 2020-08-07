@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "qidian",
+  "version": "1.0",
+  "description": "qidian enhance button",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.qidian.com/*"
+      ],
+      "js": [
+        "./main.js"
+      ]
+    }
+  ]
+}

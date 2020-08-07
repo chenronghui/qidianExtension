@@ -1,0 +1,28 @@
+.extension {
+  position: fixed;
+  width: 270px;
+  height: 40px;
+  background: #ff9000;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+  z-index: 9999999;
+}
+
+#pageNum {
+  width: 50px;
+}
+
+button,
+input {
+  margin-right: 10px;
+}
+
+.go {
+  margin-right: 0px;
+}
